@@ -13,7 +13,7 @@ cd Firmware
 bash ./Tools/setup/ubuntu.sh
 
 ## reboot computer
-wget https://gitlab.kaust.edu.sa/telegek/scripts/-/blob/63671bf1944e2e54a947e6a43a8a3c74bd4dd025/ubuntu_sim_ros_noetic.sh
+wget https://raw.githubusercontent.com/ktelegenov/scripts/main/ubuntu_sim_ros_noetic.sh
 bash ubuntu_sim_ros_noetic.sh
 
 ## close the terminal and open it again

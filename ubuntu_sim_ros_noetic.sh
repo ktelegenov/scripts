@@ -17,7 +17,7 @@ fi
 
 echo "Downloading dependent script 'ubuntu_sim_common_deps.sh'"
 # Source the ubuntu_sim_common_deps.sh script directly from github
-common_deps=$(wget https://gitlab.kaust.edu.sa/telegek/scripts/-/blob/22d96e7ffcd69a86f329502be30ee50fa59617c4/ubuntu_sim_common_deps.sh -O -)
+common_deps=$(wget https://raw.githubusercontent.com/ktelegenov/scripts/main/ubuntu_sim_common_deps.sh -O -)
 wget_return_code=$?
 # If there was an error downloading the dependent script, we must warn the user and exit at this point.
 if [[ $wget_return_code -ne 0 ]]; then echo "Error downloading 'ubuntu_sim_common_deps.sh'. Sorry but I cannot proceed further :("; exit 1; fi
